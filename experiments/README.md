@@ -15,3 +15,12 @@ We do not commit large model checkpoints here, only small `.npy` arrays.
 - `task_b_ensemble/` – weighted ensemble predictions and submission file.
 
 ## Subtask A layout
+
+- `task_a_tfidf/` – TF–IDF + LR predictions.
+- `task_a_codebert/` – fine-tuned CodeBERT probabilities and predictions.
+- `task_a_graphcodebert/` – fine-tuned GraphCodeBERT.
+- `task_a_unixcoder/` – fine-tuned UniXcoder.
+- `task_a_frozen_codebert_lr/` – frozen CodeBERT + LR head.
+- `task_a_frozen_codebert_bilstm/` – frozen CodeBERT + BiLSTM head.
+- `task_a_ensemble/` – weighted ensemble predictions and submission file.
+
