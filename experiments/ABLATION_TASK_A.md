@@ -1,6 +1,6 @@
 # Subtask A – Ablation Study (Binary Detection)
 
-All scores are on the official Subtask A dev set.
+All scores are on the official Subtask A validation set.
 
 ---
 
