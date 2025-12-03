@@ -1,6 +1,6 @@
 # Subtask B – Ablation Study (11-way Authorship)
 
-All scores are on the official Subtask B dev set.
+All scores are on the official Subtask B validation set.
 
 ---
 
@@ -67,7 +67,7 @@ captures generator differences better for these languages.
 
 ## 5. Overall comparison with classical baseline and ensemble
 
-For convenience, the main Subtask B dev results are summarized in
+For convenience, the main Subtask B validation results are summarized in
 `experiments/RESULTS_TASK_B.md`. In short:
 
 - TF–IDF + LR (char 3–6g) reaches **0.9113 accuracy / 0.3418 macro F1**.
