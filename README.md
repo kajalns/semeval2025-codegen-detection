@@ -132,3 +132,19 @@ The project is developed in a public GitHub repository with:
 - Pull requests and code review between team members.
 
 - Commits from both contributors on notebooks, src/ scripts, and experiment documentation.
+
+## Results
+
+We provide the final validation and test-set performance for both subtasks.  
+Detailed tables are available in the `experiments/` folder.
+
+### Subtask A – Results
+- Validation scores: `RESULTS_TASK_A.md`
+- Model outputs (NumPy files): `experiments/task_a/`
+- Ensemble predictions: `experiments/task_a/ensemble/`
+
+### Subtask B – Results
+- Validation scores: `RESULTS_TASK_B.md`
+- Model outputs (NumPy files): `experiments/task_b/`
+- Ensemble predictions: `experiments/task_b/ensemble/`
+
