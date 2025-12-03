@@ -101,3 +101,14 @@ The notebooks/ folder contains the original Colab notebooks we used for:
 
 These notebooks are the “research lab” version of the project.\
 The src/ scripts are the cleaned-up implementation for reproducibility.
+
+------
+## Collaboration
+
+The project is developed in a public GitHub repository with:
+
+- Branches such as feature/taskb-data-utils, feature/taskb-transformers, etc.
+
+- Pull requests and code review between team members.
+
+- Commits from both contributors on notebooks, src/ scripts, and experiment documentation.
