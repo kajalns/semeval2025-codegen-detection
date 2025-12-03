@@ -36,7 +36,7 @@ requirements.txt
 
 -----
 ## Setup
-We recommend using a virtual environment:
+We recommend using a virtual environment:\
 python -m venv venv\
 source venv/bin/activate      # on Windows: venv\Scripts\activate\
 pip install -r requirements.txt\
@@ -59,21 +59,22 @@ data/
     task_b_validation_set.parquet
     task_b_test_set_sample.parquet
 ```
-----
 ## Running Subtask B pipelines
 
-From the project root, after installing dependencies and placing the data:
-# TF–IDF + Logistic Regression baseline
+From the project root:
+
+```bash
+# Subtask B – TF–IDF + Logistic Regression baseline
 python -m src.train_tfidf_task_b
 
-# Fine-tuned transformers
+# Subtask B – fine-tuned transformers
 python -m src.train_codebert_task_b
 python -m src.train_graphcodebert_task_b
 python -m src.train_unixcoder_task_b
 
-# Frozen CodeBERT baselines
+# Subtask B – frozen CodeBERT baselines
 python -m src.train_frozen_codebert_lr_task_b
 python -m src.train_frozen_codebert_bilstm_task_b
 
-# Transformer ensemble (requires saved val/test probabilities)
+# Subtask B – transformer ensemble (uses saved val/test probabilities)
 python -m src.train_ensemble_task_b
