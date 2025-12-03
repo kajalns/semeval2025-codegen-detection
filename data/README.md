@@ -12,6 +12,6 @@ data/
     task_a_test_set_sample.parquet
 
   task_b/
-    task_b_training_set_1.parquet
+    task_b_training_set.parquet
     task_b_validation_set.parquet
     task_b_test_set_sample.parquet
