@@ -13,3 +13,5 @@ We do not commit large model checkpoints here, only small `.npy` arrays.
 - `task_b_frozen_codebert_lr/` – frozen CodeBERT + LR head.
 - `task_b_frozen_codebert_bilstm/` – frozen CodeBERT + BiLSTM head.
 - `task_b_ensemble/` – weighted ensemble predictions and submission file.
+
+## Subtask A layout
