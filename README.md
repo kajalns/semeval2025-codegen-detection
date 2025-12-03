@@ -39,7 +39,7 @@ requirements.txt
 We recommend using a virtual environment:\
 python -m venv venv\
 source venv/bin/activate      # on Windows: venv\Scripts\activate\
-pip install -r requirements.txt\
+pip install -r requirements.txt
 
 ----
 ## Data
@@ -78,3 +78,26 @@ python -m src.train_frozen_codebert_bilstm_task_b
 
 # Subtask B – transformer ensemble (uses saved val/test probabilities)
 python -m src.train_ensemble_task_b
+```
+
+-----
+## Notebooks
+
+The notebooks/ folder contains the original Colab notebooks we used for:
+
+- Data overview for Subtasks A and B (label distributions, languages, code length, etc.)
+
+- Training and evaluation of:
+
+  - TF–IDF + LR
+
+  - Fine-tuned CodeBERT, GraphCodeBERT, UniXcoder
+
+  - Frozen CodeBERT + LR / BiLSTM
+
+  - Weighted transformer ensemble
+
+- Additional plots, sanity checks, and qualitative inspection of predictions.
+
+These notebooks are the “research lab” version of the project.\
+The src/ scripts are the cleaned-up implementation for reproducibility.
