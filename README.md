@@ -59,6 +59,23 @@ data/
     task_b_validation_set.parquet
     task_b_test_set_sample.parquet
 ```
+# Subtask A – TF–IDF + Logistic Regression baseline
+python -m src.train_tfidf_task_a
+
+# Subtask A – fine-tuned transformers
+python -m src.train_codebert_task_a
+python -m src.train_graphcodebert_task_a
+python -m src.train_unixcoder_task_a
+
+# Subtask A – frozen CodeBERT baselines
+python -m src.train_frozen_codebert_lr_task_a
+python -m src.train_frozen_codebert_bilstm_task_a
+
+# Subtask A – transformer ensemble
+python -m src.train_ensemble_task_a
+
+
+
 ## Running Subtask B pipelines
 
 From the project root:
