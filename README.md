@@ -41,3 +41,4 @@ src/                # Python source files for data loading and model training
 README.md
 requirements.txt
 
+## Setup
