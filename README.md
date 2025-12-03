@@ -30,20 +30,13 @@ experiments/        # small experiment artifacts: .npy predictions, result table
 notebooks/          # Colab notebooks for data analysis and training
 scripts/            # (optional) shell scripts, if used
 src/                # Python source files for data loading and model training
-  data_utils_task_b.py
-  train_tfidf_task_b.py
-  train_codebert_task_b.py
-  train_graphcodebert_task_b.py
-  train_unixcoder_task_b.py
-  train_frozen_codebert_lr_task_b.py
-  train_frozen_codebert_bilstm_task_b.py
-  train_ensemble_task_b.py
 README.md
 requirements.txt
 ```
 
 -----
 ## Setup
+We recommend using a virtual environment:
 python -m venv venv\
 source venv/bin/activate      # on Windows: venv\Scripts\activate\
 pip install -r requirements.txt\
