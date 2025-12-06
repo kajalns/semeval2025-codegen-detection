@@ -3,7 +3,7 @@ Frozen CodeBERT + BiLSTM classifier for SemEval 2026 Task 13 – Subtask A.
 
 Pipeline:
   1. Load Task A train/validation/test splits from data/task_a.
-  2. Apply basic cleaning: keep (code, label), drop missing code, strip whitespace.
+  2. Apply basic cleaning: keep (code, label), drop missing code.
   3. Tokenize code with CodeBERT tokenizer.
   4. Pass token sequences through a FROZEN CodeBERT encoder.
   5. Feed the sequence of hidden states into a BiLSTM + linear layer.
