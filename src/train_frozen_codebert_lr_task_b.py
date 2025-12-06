@@ -3,7 +3,7 @@ Frozen CodeBERT + Logistic Regression baseline for SemEval 2026 Task 13 – Subt
 
 Pipeline:
   1. Load Task B train/validation/test splits from data/task_b.
-  2. Apply basic cleaning: keep (code, label), drop missing code, strip whitespace.
+  2. Apply basic cleaning: keep (code, label), drop missing code.
   3. Tokenize code with CodeBERT tokenizer.
   4. Use a FROZEN CodeBERT encoder to extract CLS embeddings for each sample.
   5. Train a Logistic Regression classifier on the extracted features.
