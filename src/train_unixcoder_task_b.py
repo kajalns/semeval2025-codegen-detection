@@ -3,7 +3,7 @@ Fine-tune UniXcoder for SemEval 2026 Task 13 – Subtask B (authorship detection
 
 This script:
   1. Loads Task B train/validation/test splits from data/task_b.
-  2. Applies basic cleaning: keep (code, label), drop missing code, strip whitespace.
+  2. Applies basic cleaning: keep (code, label), drop missing code.
   3. Tokenizes code with the UniXcoder tokenizer.
   4. Fine-tunes UniXcoder for multi-class classification.
   5. Prints validation accuracy and macro-F1.
