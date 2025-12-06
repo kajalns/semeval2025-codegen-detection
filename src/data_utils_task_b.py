@@ -48,8 +48,7 @@ def basic_clean_task_b(df: pd.DataFrame) -> pd.DataFrame:
 
       - keep only 'code' and 'label' columns,
       - drop rows where code is missing,
-      - cast label to int,
-      - strip leading/trailing whitespace from code.
+      - cast label to int.
 
     Args:
         df: Raw DataFrame with at least 'code' and 'label' columns.
@@ -59,7 +58,7 @@ def basic_clean_task_b(df: pd.DataFrame) -> pd.DataFrame:
     """
     df = df[["code", "label"]].dropna(subset=["code"])
     df["label"] = df["label"].astype(int)
-    df["code"] = df["code"].astype(str).str.strip()
+    df["code"] = df["code"].astype(str)
     return df
 
 
