@@ -3,7 +3,7 @@ Train a TF–IDF + Logistic Regression baseline for SemEval 2026 Task 13 – Sub
 
 This script:
   1. Loads the Task B parquet files from data/task_b.
-  2. Applies simple cleaning to keep (code, label) and strip whitespace.
+  2. Applies simple cleaning to keep (code, label).
   3. Builds TF–IDF features over code.
   4. Trains a Logistic Regression classifier with class_weight="balanced".
   5. Prints validation accuracy and macro-F1.
